@@ -1,0 +1,30 @@
+.trailer-container {
+    margin:0 auto;
+    width:1200px;
+    height:800px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.trailer{
+    width:800px;
+    height:600px;
+}
+
+@media (max-width:768px) { 
+
+    .trailer-container {
+        width:100%;
+    
+       
+    }
+    .trailer{
+        width:90%;
+        height:500px;
+        
+    }
+
+}

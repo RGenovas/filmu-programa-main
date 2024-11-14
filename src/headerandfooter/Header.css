@@ -1,0 +1,268 @@
+/* Navbaras/Headeris */
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+/* Header */
+
+
+.header {
+    margin: 0 auto;
+    width:1220px;
+    padding:20px;
+    height:80px;
+    display:flex;
+    align-items: center;
+    background-color: #222325;
+    justify-content: space-between;
+    border-radius:20px;
+}
+
+
+.header .logo {
+    margin:1em;
+    font-family: "Creepster", system-ui;
+    font-size:60px;
+    color:rgb(248, 12, 12);
+    text-shadow:
+    4px 4px 1px #300000,
+    4px 6px 1px #400000,
+    4px 8px 1px #500000,
+    4px 10px 1px #600000,
+    4px 12px 1px #700000,
+    4px 14px 1px #800000,
+    4px 16px 1px #900000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#900000;
+}
+
+.logo1 {
+    font-size:30px;
+    font-family: "Creepster", system-ui;
+    margin:0;
+    letter-spacing: 1px;
+    color:rgb(134, 125, 125);
+}
+
+.header-links {
+    margin-right:3em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size:42px;
+    color:#bbb7b7;
+    font-family: "Creepster", system-ui;
+    }
+
+
+
+.search {
+    font-size:30px;
+    font-family: "Creepster", system-ui;
+    margin:0;
+    color:rgb(218, 205, 205);
+    margin-right:1em;
+    border:none;
+    background:none;
+}
+
+.search:hover , .logo1:hover, a:hover {
+    text-shadow: rgb(124, 122, 113) 2px 0 10px;
+    background:none;
+    position:relative;
+    bottom:5px;
+
+}
+
+
+
+.search-input {
+    background: #222325;
+    color:rgb(218, 205, 205);
+    font-size:20px;
+    font-family: "Creepster", system-ui;
+    width:100px;
+
+}
+.search-btn {
+    background:none;
+    height:20px;
+    width:20px;
+    padding:5px;
+
+}
+.search-close {
+    background:none;
+    color:#e24646;
+}
+
+
+
+
+
+/* Footer */
+
+.credit {
+    color:#d6d4d4;
+    font-size:30px;
+
+}
+
+.credit{
+    font-size:20px;
+    color:#d6d4d4;
+}
+
+.active {
+    text-decoration: none;
+}
+
+.footer {
+    margin: 0 auto;
+    width:1220px;
+    padding:20px;
+    height:80px;
+    display:flex;
+    align-items: center;
+    background-color: #222325;
+    justify-content: space-between;
+    border-radius:20px;
+}
+
+.footer-links {
+    width:60%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size:42px;
+    color:#bbb7b7;
+    font-family: "Creepster", system-ui;
+}
+
+
+@media (max-width:768px) {
+
+    *{
+        margin:0;
+        padding:0;
+       
+    }
+
+    .header {
+        width:100%;
+        padding:10px;
+        height:90px;
+        display:flex;
+        justify-content: flex-start;
+        background-color: #222325;
+        border-radius:0px;
+    }
+
+    .header .logo{
+        font-size:30px;
+        padding:2px;
+    }
+   
+    .header-links {
+        margin:0;
+        display:flex;
+        justify-content: space-around;
+        text-align: left;
+
+    }
+
+    .header-links button {
+        margin-right:1em;
+    }
+    
+    .logo1 {
+        font-size:15px;
+        font-family: "Creepster", system-ui;
+        margin:0;
+        padding:0;
+        letter-spacing: 1px;
+        color:rgb(134, 125, 125);
+    }
+    
+    h3 {
+        margin-top:1em;
+        margin-bottom:1em;
+        text-align: center;
+        font-size:32px;
+
+   }
+
+   .footer-links {
+    margin:0;
+    padding:0;
+    width:90%;
+    display:flex;
+    justify-content: flex-start;
+    font-size:20px;
+    color:#bbb7b7;
+    font-family: "Creepster", system-ui;
+}
+.credit{
+    font-size:15px;
+    color:#d6d4d4;
+}
+
+    .top-movies {
+        width:100%;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        grid-template-columns: 200px;
+        gap:20px;
+        background-color: rgb(41, 39, 39);
+        padding-top:20px;
+        margin-bottom:2em;
+    }
+    
+  
+    
+    .movie_name {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Creepster", system-ui;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        display: block;
+        color:#8d8b8b;
+        letter-spacing: 1px;
+        height:40px;
+    }
+    
+    .movie_rating {
+        font-size: 20px;
+        color:#d1cbcb;
+        margin-top:3em;
+    }
+    
+
+    
+
+    
+ 
+    
+    
+    
+
+    
+
+    
+    
+    
+
+
+}
